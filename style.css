@@ -22,7 +22,7 @@ h5{
     font-weight: lighter;
 }
 .container{
-    max-width: 70vw;
+    max-width: 80vw;
     margin :auto;
 }
 
@@ -138,4 +138,103 @@ h5{
 .line-seg{
     width : 100%;
     border: solid rgb(73, 73, 73) 3px;
+}
+
+/* next section */
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    margin-block: 50px;
+}
+
+.second-content{
+    flex-direction: column;
+    gap:20px;
+}
+
+.second-img{
+    position: relative;
+}
+
+.second-img img{
+    z-index: 10;
+    width: 600px;
+}
+
+.second-img video{
+    position: absolute;
+    top: 70px;
+    z-index: -1;
+    left: 49px;
+}
+
+
+/*third sec*/
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    margin-block: 50px;
+}
+
+.third-img img{
+    width : 500px;
+}
+
+.third-content{
+    flex-direction: column;
+    gap : 20px;
+}
+
+
+.fourth-img{
+    position: relative;
+}
+.fouth-img img{
+    z-index: 10;
+    width: 600px;
+}
+
+.fourth-img video{
+    position: absolute;
+    top: 36px;
+    width: 400px;
+    z-index: -1;
+    left: 120px;
+}
+
+.faq-box {
+    margin-bottom: 40px;
+}
+
+.faq-box h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.questions-box{
+    display: flex;
+    flex-direction: column;
+    gap : 9px;
+    margin-block: 20px;
+
+}
+
+.questions{
+    width: 100%;
+    background-color: #414141;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.faq-content h3{
+    padding : 20px;
+    text-align: center;
 }

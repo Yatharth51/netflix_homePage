@@ -39,4 +39,18 @@
         padding-inline: 3px;
         height : 40px;
     }
+
+
+    /* section 2 */
+
+    .second{
+
+        flex-wrap: wrap;
+    }
+    .second-content{
+        flex-direction: column;
+        text-align: center;
+        gap:20px;
+    }
+
 }
