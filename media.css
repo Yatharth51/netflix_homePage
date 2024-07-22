@@ -1,4 +1,4 @@
-@media screen and (max-width : 478px){
+@media screen and (max-width : 640px){
     .container{
         max-width: 90vw;
     }
@@ -54,3 +54,5 @@
     }
 
 }
+
+

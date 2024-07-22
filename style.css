@@ -136,9 +136,12 @@ h5{
 }
 
 .line-seg{
-    width : 100%;
+    width : 100vw;
     border: solid rgb(73, 73, 73) 3px;
 }
+
+
+
 
 /* next section */
 
@@ -172,6 +175,37 @@ h5{
     left: 49px;
 }
 
+@media screen and (max-width : 640px){
+    .second-img img{
+        width: 300px;
+    }
+    .second-img video{
+        width : 250px;
+        top: 48px;
+    
+        left: 40px;
+        
+    }
+}
+
+@media screen and (max-width : 935px){
+    .second{
+        flex-wrap: wrap;
+    }
+    .second-content{
+        text-align: center;
+    }
+
+    .third{
+        flex-wrap: wrap;
+    }
+    .third-content{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
 
 /*third sec*/
 
@@ -191,6 +225,13 @@ h5{
 .third-content{
     flex-direction: column;
     gap : 20px;
+    padding-inline: 20px;
+}
+
+@media screen and (max-width : 640px){
+    .third-img img{
+        width : 350px;
+    }
 }
 
 
@@ -210,8 +251,20 @@ h5{
     left: 120px;
 }
 
+@media screen and (max-width : 640px){
+    .fourth-img img{
+        width: 300px;
+    }
+    .fourth-img video{
+        width: 200px;
+        top: 14px;
+        left: 48px;
+    }
+}
+
 .faq-box {
     margin-bottom: 40px;
+    padding-inline: 30px;
 }
 
 .faq-box h1{
