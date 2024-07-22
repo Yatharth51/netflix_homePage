@@ -1,0 +1,42 @@
+@media screen and (max-width : 478px){
+    .container{
+        max-width: 90vw;
+    }
+    .first{
+        height: 70vh;
+        
+    }
+    
+    .bg-img{
+        z-index: -10;
+        position: absolute;
+        height : 70vh;
+        width : 100vw;
+        opacity: 0.6;
+        
+    }
+    h1{
+        font-size: 38px;
+    }
+    
+    h3{
+        font-size: 14px;
+        
+    }
+    h5{
+        font-size: 10px;
+        
+    }
+    #email{
+        font-size : 15px;
+        padding-right : 8vw;
+        padding-block: 2px;
+        height : 40px;
+        
+    }
+    .get-started{
+        font-size: 14px;
+        padding-inline: 3px;
+        height : 40px;
+    }
+}

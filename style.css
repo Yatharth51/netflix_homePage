@@ -6,28 +6,136 @@
 body{
     background-color: black;
     color : white;
+    font-family: sans-serif;
 }
 
+h1{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: lighter;
+}
+h5{
+    font-size: 20px;
+    font-weight: lighter;
+}
 .container{
     max-width: 70vw;
     margin :auto;
+}
+
+.flex{
+    display:  flex;
+    
+}
+
+.top-black{
+    width : 100%;
+    position: absolute;
+    height : 20vh;
+    z-index: -1;
+    background: linear-gradient(to top , transparent, black);
+    opacity: 0.5;
+}
+
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons{
+    margin-top: -20px;
+    gap : 20px;
+}
+
+.nav-buttons select{
+    padding-inline: 10px;
+    padding-block: 8px;
+    border-radius: 5px;
+}
+
+.nav-buttons button{
+    padding-inline: 10px;
+    padding-block: 8px;
+    border-radius: 5px;
+    background-color: red;
+    color : white;
+    border: none;
 }
 
 .first{
     height: 85vh;
     
 }
+#lang{
+    background-color: transparent;
+    color : white;
+}
 
 .bg-img{
-    z-index: -1;
+    z-index: -10;
     position: absolute;
     height : 85vh;
     width : 100vw;
     opacity: 0.6;
     
+    
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 30px;
+    text-align: center;
+    align-items: center;
+    height : 80%;
+    gap : 20px;
+}
+
+::placeholder{
+    color :white;
+}
+
+.content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#email{
+    font-size : 16px;
+    padding-right : 15vw;
+    padding-left: 1vw;
+    padding-block: 10px;
+    height : 50px;
+    background-color: black;
+    opacity: 0.5;
+    color : white;
+    border : solid white 1px;
+    border-radius: 5px;
+}
+
+.get-started{
+    padding-inline: 10px;
+    padding-block: 10px;
+    height : 50px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: red;
+    color : white;
+    border: none;
+}
 
 .first nav img{
     margin-top: -25px;
+}
+
+.line-seg{
+    width : 100%;
+    border: solid rgb(73, 73, 73) 3px;
 }
